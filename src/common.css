@@ -1,0 +1,14 @@
+section {
+    min-height: 100vh;
+}
+
+.heading {
+    font-size: var(--font-size-heading2);
+    color: var(--primary-font-color);
+    margin-bottom: 2rem;
+}
+
+.para {
+    font-size: var(--font-size-para);
+    color: white;
+}

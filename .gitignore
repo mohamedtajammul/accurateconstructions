@@ -7,6 +7,9 @@
 
 # testing
 /coverage
+/assets
+.package-lock.json
+package.json
 
 # production
 /build

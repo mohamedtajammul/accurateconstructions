@@ -1,13 +1,48 @@
-body {
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: sans-serif;
+  /* font-family: 'Montserrat Alternates', sans-serif; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  --bg-color: rgb(240, 233, 233);
+  --primary-color: #15161A;
+  --secondary-color: #f1f1f1;
+  /* --gray-color: #64707C; */
+  --gray-color: #45494e;
+  --primary-font-color: #15161a;
+  --secondary-font-color: #f1f1f1;
+
+  --font-size-para: calc(0.5rem + 0.5vw);
+  --font-size-para-m: calc(0.6rem + 0.8vw);
+  --font-size-heading: calc(2rem + 1vw);
+  --font-size-heading2: calc(1.5rem + 0.8vw);
+  --font-size-heading3: calc(1rem + 0.6vw);
+
+  --letter-spacing: 0.1rem;
+
+  background-color: var(--bg-color);
+  /* background-color: teal; */
+  font-size: 10px;
+}
+
+a:link,
+a:active {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
+
+
+@media only screen and (max-width:910px) {
+ 
+}
+
+@media only screen and (max-width:500px) {
+ 
 }
